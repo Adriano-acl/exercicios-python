@@ -1,0 +1,5 @@
+d= input('digite algo : ')
+print('Ele é um numero: ?',d.isnumeric())
+print('É alfanumerico: ',d.isalnum())
+print('É alfabetico: ',d.isalpha())
+print('Esta em maiusculo: ',d.islower())

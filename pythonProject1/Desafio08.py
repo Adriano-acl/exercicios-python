@@ -1,0 +1,7 @@
+print('======= DESAFIO 08 AULA 07 =======')
+print('ESCREVA UM PROGRAMA QUE LEIA UM VALOR EM METROS E O EXIBA CONVERTIDO EM CENTIMETROS E MILIMETROS')
+print('CONVERTE METROS PARA CENTIMETROS E MILIMETROS')
+m = int(input('MEDIADA EM METROS = '))
+cm = m * 100
+mm = m * 1000
+print('MEDIDA EM : {}m\nMEDIDA EM : {}cm\nMEDIDA EM : {}mm'.format(m,cm,mm))
